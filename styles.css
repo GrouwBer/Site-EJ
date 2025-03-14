@@ -2,12 +2,12 @@
 :root {
   /* Definição de variáveis para tamanhos de fonte e cores des seccoes */
   --font-pequena: 1rem;
-  --font-media: 1.875rem;
-  --font-grande: 2.5rem;
-  --font-enorme: 3.125rem;
+  --font-media: 1.5rem;
+  --font-grande: 2rem;
+  --font-enorme: 2.625rem;
   --cor-inicio: #ffffff;
-  --cor-servico: #00008b;
-  --cor-contato: #0e004e;
+  --cor-servico: #F5F5DC;
+  --cor-contato: #000065;
   --cor-sobre: #142c54;
 }
 
@@ -107,7 +107,7 @@ nav a {
 /* botões do header */
 #bservico {
   background-color: var(--cor-servico);
-  color: white;
+  color: black;
 }
 #binicio {
   background-color: var(--cor-inicio);
@@ -173,6 +173,7 @@ nav a {
   width: 50%;
   margin-left: 40px;
   font-size: var(--font-grande);
+  color: black;
 }
 
 .textoservico h3 {
