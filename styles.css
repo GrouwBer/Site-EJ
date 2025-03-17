@@ -2,9 +2,9 @@
 :root {
   /* Definição de variáveis para tamanhos de fonte e cores des seccoes */
   --font-pequena: 1rem;
-  --font-media: 1.5rem;
-  --font-grande: 2rem;
-  --font-enorme: 2.625rem;
+  --font-media: 1.2rem;
+  --font-grande: 1.5rem;
+  --font-enorme: 1.625rem;
   --cor-inicio: #ffffff;
   --cor-servico: #F5F5DC;
   --cor-contato: #000065;
@@ -82,6 +82,7 @@ a {
   z-index: 1000;
   position: sticky;
   top: 0;
+  bottom: 0;
 }
 
 nav {
